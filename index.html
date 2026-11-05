@@ -1,300 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Gaurav Sharma — Data Analyst &amp; AI/ML</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0d354a">
+  <meta name="description"
+    content="Gaurav Sharma is a data analyst with one year of experience, a teacher with two years of experience, and a curious explorer of quantum computing.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gaurav Sharma — Data Analyst &amp; Quantum Computing Explorer">
+  <meta property="og:description" content="Data analysis, teaching, and an exploration of quantum computing.">
+  <title>Gaurav Sharma — Data Analyst &amp; Quantum Computing Explorer</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230d354a%22/><text x=%2250%25%22 y=%2270%25%22 text-anchor=%22middle%22 font-size=%2265%22 font-family=%22Georgia%22 font-style=%22italic%22 fill=%22%23ffffff%22>G</text></svg>">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-<div class="progress-bar" id="progressBar"></div>
-<header>
-  <nav>
-    <a href="#top" class="brand">Gaurav Sharma</a>
-    <div class="nav-links">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a href="#top" aria-current="page">Home</a>
       <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
+      <a href="#projects">Project</a>
       <a href="#contact">Contact</a>
-    </div>
-    <div class="nav-right">
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+        </svg>
       </button>
-      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
-      </button>
-    </div>
-  </nav>
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </div>
-</header>
+    </nav>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open navigation menu" aria-controls="mobileMenu"
+      aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" />
+      </svg>
+    </button>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="#top">Home</a><a href="#about">About</a><a href="#projects">Project</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<main id="top">
-
-  <section class="hero">
-    <div class="wrap fade-in">
-      <div class="hero-top-row">
-        <div class="avatar">GS</div>
-        <div class="eyebrow" style="margin-bottom:0;"><span class="status-dot"></span>Mahesana, Gujarat · Open to work</div>
-      </div>
-      <h1 class="hero-name">Gaurav Sharma</h1>
-      <p class="hero-role">Data Analyst &amp; AI/ML Enthusiast</p>
-      <p class="hero-desc">I turn messy, inconsistent data into dashboards people actually trust — building end-to-end analytics from a raw source table to a recommendation a stakeholder acts on, and building with LLMs on the side mostly to know when not to reach for one.</p>
-      <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View projects</a>
-        <a href="mailto:chmodgaurav@gmail.com" class="btn btn-secondary">Get in touch</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="wrap">
-      <h2>About</h2>
-      <div class="about-text">
-        <p>At Carrier Compiler, I built Power BI dashboards tracking enrollment, revenue, and performance across a multi-course ed-tech catalog — using SQL to extract and query the data, and Excel to clean it before it ever reached a chart.</p>
-        <p>On my own projects I go end-to-end: a churn dashboard that isolated a high-risk customer segment, a sales dashboard that handled real data-prep problems instead of clean sample data, and an exploratory study testing whether critical acclaim actually predicts box-office revenue.</p>
-        <p>I also spent two years teaching maths and CBSE computer science to students aged 11–18, which is where I learned the skill that matters most in this work: explaining what a number means to someone who doesn't want the methodology, just the answer.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="experience">
-    <div class="wrap">
-      <h2>Experience</h2>
-
-      <div class="timeline">
-      <div class="entry">
-        <div class="entry-date">Feb – Mar 2026</div>
-        <div>
-          <div class="entry-role">Human Resources Intern</div>
-          <div class="entry-org">Cook N Klean · Remote, Noida</div>
-          <ul>
-            <li>Managed recruitment and hiring for roughly 25–30 candidates across multiple departments.</li>
-            <li>Coordinated candidate sourcing, resume screening, interview scheduling, and recruitment communication.</li>
-          </ul>
+  <main id="main">
+    <section class="cover page-cover" id="top" aria-labelledby="cover-title">
+      <div class="cover-copy">
+        <div class="cover-title">
+          <p>Data Analyst</p>
+          <h1 id="cover-title">Portfolio</h1>
+          <div class="presented-by">Presented by:<strong>Gaurav Sharma</strong></div>
+          <p class="cover-summary">Turning data into insight, sharing knowledge through teaching, and exploring what
+            comes next.</p>
+          <a class="cover-link" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
         </div>
       </div>
+      <div class="cover-photo"><img src="assets/cover-ocean.jpg" alt="Deep blue ocean waves" fetchpriority="high"></div>
+    </section>
 
-      <div class="entry">
-        <div class="entry-date">Oct 2023 – Dec 2025</div>
-        <div>
-          <div class="entry-role">Computer Science &amp; Math Teacher</div>
-          <div class="entry-org">Self-employed · Agra, Hybrid</div>
-          <ul>
-            <li>Taught maths (grades 6–10) and computer science (grades 11–12), helping students build conceptual understanding and problem-solving skills.</li>
-            <li>Mentored 20 students through personalised instruction and exam preparation — an 80% pass rate, with all 20 passing their exams.</li>
-          </ul>
+    <section class="intro-page page-light" id="introduction" aria-labelledby="intro-title">
+      <div class="page-nav-label">Introduction</div>
+      <div class="side-navy intro-side" aria-hidden="true"></div>
+      <div class="intro-copy">
+        <p class="page-kicker">01 / INTRODUCTION</p>
+        <h2 id="intro-title">Introduction</h2>
+        <p>With one year of data analyst experience and two years of teaching experience, I enjoy finding patterns in
+          information and making ideas easier to understand.</p>
+        <h3>Welcome to My Portfolio</h3>
+        <p>Explore my work in business intelligence and analytics, the projects that have shaped my learning, and my
+          current curiosity about quantum computing.</p>
+      </div>
+      <div class="intro-photo overlap-photo"><img src="assets/intro-water.jpg"
+          alt="Sunlight filtering through clear blue water" loading="lazy"></div>
+    </section>
+
+    <section class="about-page page-light" id="about" aria-labelledby="about-title">
+      <div class="page-nav-label">About Me</div>
+      <div class="side-navy about-side" aria-hidden="true"></div>
+      <div class="about-photo"><img src="assets/about-water.jpg" alt="Open blue water" loading="lazy"></div>
+      <div class="about-copy">
+        <p class="page-kicker">02 / ABOUT ME</p>
+        <h2 id="about-title">About Me</h2>
+        <p>I’m a Computer Science &amp; Engineering graduate and data analyst. At Carrier Compiler, I used SQL and Excel
+          to prepare data and built Power BI dashboards tracking course enrollment, revenue, and performance.</p>
+        <p>My two years teaching mathematics and computer science taught me to explain the “why” behind a solution — a
+          habit I bring to analysis, collaboration, and learning about new technologies.</p>
+        <div class="about-examples">
+          <article>
+            <h3>Data Analyst</h3>
+            <p>One year of experience using SQL, Excel, and Power BI to make business data useful.</p>
+          </article>
+          <article>
+            <h3>Teacher</h3>
+            <p>Two years teaching mathematics and computer science and helping students build understanding.</p>
+          </article>
+        </div>
+        <div class="about-education"><strong>B.Tech, Computer Science &amp; Engineering</strong><span>Dr. A.P.J. Abdul
+            Kalam Technical University · 2022–2026</span><span>Top 10 finalist, Deepsight Hackathon · 50 teams</span>
         </div>
       </div>
+    </section>
 
-      <div class="entry">
-        <div class="entry-date">Apr – Sep 2025</div>
-        <div>
-          <div class="entry-role">Artificial Intelligence Intern</div>
-          <div class="entry-org">The Entrepreneurship Network · Remote, Delhi</div>
-          <ul>
-            <li>Built NexusClaw, a Bun/TypeScript CLI coding assistant for exploring, planning, and modifying a local codebase through an interactive terminal.</li>
-            <li>Integrated LLM tool calling and web research to ground responses in live information, and exposed the assistant through a Telegram bot.</li>
-            <li>Designed an agentic loop that plans, executes, and self-corrects across multi-step coding tasks, improving reliability on complex requests.</li>
-          </ul>
+    <section class="identity-page page-light" id="experience" aria-labelledby="experience-title">
+      <div class="page-nav-label">Experience</div>
+      <div class="side-navy identity-side" aria-hidden="true"></div>
+      <div class="identity-copy">
+        <p class="page-kicker">03 / PROFESSIONAL EXPERIENCE</p>
+        <h2 id="experience-title">Professional Experience</h2>
+        <p class="identity-intro">My experience spans data analytics, AI projects, and teaching — work that continues to
+          shape how I approach problems and communicate solutions.</p>
+        <article class="identity-role">
+          <h3>Data Analyst Intern <span>Sep 2024 – Aug 2025</span></h3>
+          <p>Carrier Compiler · Remote, Agra</p>
+          <p>Built Power BI dashboards for enrollment, revenue, and performance; queried data with SQL, cleaned it with
+            Excel, and used statistical analysis to surface patterns.</p>
+        </article>
+        <article class="identity-role">
+          <h3>Artificial Intelligence Intern <span>Apr 2025 – Sep 2025</span></h3>
+          <p>The Entrepreneurship Network · Remote, Delhi</p>
+          <p>Built NexusClaw, a Bun/TypeScript coding assistant, integrating LLM tool calling, web research, and a
+            self-correcting agent loop.</p>
+        </article>
+        <article class="identity-role">
+          <h3>Computer Science &amp; Math Teacher <span>Oct 2023 – Dec 2025</span></h3>
+          <p>Self-employed · Agra</p>
+          <p>Taught maths (grades 6–10) and computer science (grades 11–12), mentoring students through personalised
+            instruction.</p>
+        </article>
+        <article class="identity-role">
+          <h3>Human Resources Intern <span>Feb 2026 – Mar 2026</span></h3>
+          <p>Cook N Klean · Remote, Noida</p>
+          <p>Coordinated candidate sourcing, resume screening, interviews, and recruitment communication.</p>
+        </article>
+      </div>
+      <div class="identity-photo overlap-photo"><img src="assets/identity-reef.jpg"
+          alt="Colorful fish and coral beneath the sea" loading="lazy"></div>
+    </section>
+
+    <section class="skills-page page-light" id="expertise" aria-labelledby="skills-title">
+      <div class="page-nav-label">Skills &amp; Expertise</div>
+      <div class="skills-photo"><img src="assets/skills-water.jpg" alt="Blue water with a distant horizon"
+          loading="lazy"></div>
+      <div class="skills-panel skills-panel-one">
+        <h3>Data Analytics</h3>
+        <p>SQL, Power BI, Power Query, DAX, Excel, Tableau, statistics, data cleaning, and exploratory data analysis.
+        </p>
+      </div>
+      <div class="skills-panel skills-panel-two">
+        <h3>AI &amp; Engineering</h3>
+        <p>Python, Pandas, PyTorch, LangChain, RAG, vector databases, TypeScript, Bun, and Git.</p>
+      </div>
+      <div class="skills-copy">
+        <p class="page-kicker">04 / TECHNICAL EXPERTISE</p>
+        <h2 id="skills-title">Skills &amp; Expertise</h2>
+        <p>I use a practical toolkit for data preparation, analysis, visualization, and building software projects. I’m
+          currently exploring quantum computing as a learner.</p>
+        <div class="skills-callout">
+          <h3>Teaching &amp; Communication</h3>
+          <p>Two years teaching mathematics and computer science — experience that helps me communicate technical ideas
+            clearly and thoughtfully.</p>
         </div>
       </div>
+    </section>
 
-      <div class="entry">
-        <div class="entry-date">Sep 2023 – Aug 2025</div>
-        <div>
-          <div class="entry-role">Data Analyst Intern</div>
-          <div class="entry-org">Carrier Compiler · Remote, Agra</div>
-          <ul>
-            <li>Built interactive Power BI dashboards on sales data for a multi-course ed-tech platform, tracking course-wise enrollment, revenue, and performance trends.</li>
-            <li>Used SQL to query and extract data, and Excel to clean and preprocess raw datasets before analysis.</li>
-            <li>Performed statistical analysis to surface patterns and support data-driven decisions across a large course catalog.</li>
-          </ul>
+    <section class="featured-page page-light" id="projects" aria-labelledby="projects-title">
+      <div class="page-nav-label">Featured Projects</div>
+      <div class="side-navy featured-side" aria-hidden="true"></div>
+      <div class="featured-copy">
+        <p class="page-kicker">05 / SELECTED WORK</p>
+        <h2 id="projects-title">Featured Projects</h2>
+        <p>Projects in analytics, machine learning, and developer tools — built to investigate a question, explore an
+          idea, or make a workflow more useful.</p>
+        <h3>From data to decisions</h3>
+        <p>My analytics projects work through the full process: preparing real datasets, building clear visualizations,
+          and communicating what the results can tell us.</p>
+        <a class="page-link" href="#project-list">View the projects <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="featured-photo overlap-photo"><img src="assets/projects-reef.jpg"
+          alt="Fish swimming among coral in turquoise water" loading="lazy"></div>
+    </section>
+
+    <section class="project-list-page page-light" id="project-list" aria-labelledby="project-list-title">
+      <div class="page-nav-label">Project Details</div>
+      <div class="side-navy project-list-side" aria-hidden="true"></div>
+      <div class="project-list-copy">
+        <p class="page-kicker">06 / PROJECT DETAILS</p>
+        <h2 id="project-list-title">Selected Work</h2>
+        <p>Each project starts with a question or a practical problem and develops through exploration and iteration.
+        </p>
+        <div class="project-list">
+          <article id="project-movie"><span>01</span>
+            <div>
+              <h3>Movie Industry EDA</h3>
+              <p>Explored the TMDB 5000 dataset to test whether critical acclaim predicts box-office revenue. Cleaned
+                and merged the data and prepared 5+ visualizations.</p><small>Python · Pandas · NumPy · Matplotlib ·
+                Seaborn</small>
+            </div>
+          </article>
+          <article id="project-superstore"><span>02</span>
+            <div>
+              <h3>Superstore Sales Dashboard</h3>
+              <p>Two-page analysis of 5,901 transactions with sales, profit, delivery, segment, forecast, and geographic
+                views.</p><small>Power BI · Power Query · DAX</small>
+            </div>
+          </article>
+          <article id="project-churn"><span>03</span>
+            <div>
+              <h3>Telecom Customer Churn</h3>
+              <p>Analyzed 7,043 customers, created churn and revenue measures, and identified a high-risk segment with
+                retention recommendations.</p><small>Power BI · Power Query · DAX</small>
+            </div>
+          </article>
+          <article id="project-edulora"><span>04</span>
+            <div>
+              <h3>EduLora — Fine-Tuning Pipeline</h3>
+              <p>Prepared educational text from PDF, TXT, DOCX, and EPUB files to fine-tune a Qwen3 0.6B LoRA adapter on
+                CPU.</p><small>Python · Hugging Face · LoRA · Ollama</small>
+            </div>
+          </article>
+          <article id="project-nexusclaw"><span>05</span>
+            <div>
+              <h3>NexusClaw — Coding Assistant</h3>
+              <p>Built a terminal coding assistant that explores, plans, and modifies a local codebase with LLM tools
+                and web research.</p><small>Bun · TypeScript · LLM tool calling</small>
+            </div>
+          </article>
+          <article id="project-f1-lap-prediction"><span>06</span>
+            <div>
+              <h3>F1 Lap Time Prediction</h3>
+              <p>Built a machine learning model to predict Formula 1 lap times using historical race data and driver performance metrics.</p><small>Python · XGBoost · SHAP</small>
+            </div>
+          </article>
+        </div>
+        <a class="page-link" href="https://github.com/cypherloss" target="_blank" rel="noopener noreferrer">Visit my
+          GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="project-list-photo overlap-photo"><img src="assets/inspiration-waves.jpg"
+          alt="Foam trail across deep blue ocean waves" loading="lazy"></div>
+    </section>
+
+    <section class="process-page page-light" id="approach" aria-labelledby="process-title">
+      <div class="page-nav-label">Creative Process</div>
+      <div class="process-photo"><img src="assets/process-water.jpg" alt="Sunlit teal water" loading="lazy"></div>
+      <div class="process-panel">
+        <p class="page-kicker page-kicker-light">07 / ENGINEERING APPROACH</p>
+        <h2 id="process-title">Engineering Approach</h2>
+        <p>I aim to make the work clear and useful, from understanding the question through checking the result.</p>
+        <div class="process-steps">
+          <article>
+            <h3>Understand</h3>
+            <p>Clarify the problem, people, and context.</p>
+          </article>
+          <article>
+            <h3>Explore</h3>
+            <p>Inspect the data and test assumptions.</p>
+          </article>
+          <article>
+            <h3>Build</h3>
+            <p>Choose an appropriate approach and implement it.</p>
+          </article>
+          <article>
+            <h3>Review</h3>
+            <p>Check results, learn, and improve.</p>
+          </article>
         </div>
       </div>
-
+      <div class="process-copy">
+        <p class="page-kicker">A PRACTICAL, ITERATIVE WAY OF WORKING</p>
+        <h3>Curiosity meets<br><em>careful analysis.</em></h3>
+        <p>I combine investigation with clear communication, so the outcome is understandable as well as technically
+          useful.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects">
-    <div class="wrap">
-      <h2>Projects</h2>
-
-      <div class="project">
-        <div class="project-top">
-          <div class="project-title-row">
-            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5M4 19h16"/><circle cx="8" cy="14" r="1.3"/><circle cx="12" cy="10" r="1.3"/><circle cx="16" cy="12" r="1.3"/><circle cx="19" cy="7" r="1.3"/></svg>
-            <div class="project-title">Movie Industry EDA</div>
-          </div>
-          <div class="project-stack">Python · Pandas · NumPy · Matplotlib · Seaborn</div>
-        </div>
-        <p>End-to-end exploratory analysis on the TMDB 5000 Movies dataset, cleaning and merging two datasets by parsing nested JSON columns (genres, cast, crew, production companies). Tested whether critical acclaim drives box-office success and shipped the findings as a structured report with 5+ visualizations.</p>
-        <div class="metrics">
-          <div class="metric"><b>~0.03</b><span>rating–revenue correlation</span></div>
-          <div class="metric"><b>Budget</b><span>strongest predictor of revenue</span></div>
-        </div>
+    <section class="inspiration-page page-light" id="focus" aria-labelledby="focus-title">
+      <div class="page-nav-label">Current Focus</div>
+      <div class="side-navy inspiration-side" aria-hidden="true"></div>
+      <div class="inspiration-copy">
+        <p class="page-kicker">08 / EXPLORING WHAT’S NEXT</p>
+        <h2 id="focus-title">Quantum Computing</h2>
+        <p>I’m exploring quantum computing and learning about its core concepts, the way it approaches computation, and
+          how this emerging field may develop.</p>
+        <article class="focus-card">
+          <h3>Learning with curiosity</h3>
+          <p>This is an area I’m exploring, not claiming professional experience in. I’m interested in understanding the
+            fundamentals and discovering how they connect to the broader world of computing.</p>
+        </article>
+        <article class="focus-card">
+          <h3>Grounded in what I know</h3>
+          <p>My current foundation is in data analysis and computer science, with two years of experience teaching
+            mathematics and computer science.</p>
+        </article>
       </div>
+      <div class="inspiration-photo overlap-photo"><img src="assets/focus-horizon.jpg" alt="Horizon over open blue sea"
+          loading="lazy"></div>
+    </section>
 
-      <div class="project">
-        <div class="project-top">
-          <div class="project-title-row">
-            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5M4 19h16"/><rect x="7" y="12" width="2.4" height="7"/><rect x="12" y="8" width="2.4" height="11"/><rect x="17" y="14" width="2.4" height="5"/></svg>
-            <div class="project-title">Superstore Sales Dashboard</div>
-          </div>
-          <div class="project-stack">Power BI · Power Query · DAX</div>
-        </div>
-        <p>Two-page dashboard on 5,901 Superstore transactions (2019–2020), reporting sales, profit, quantity, and delivery KPIs segmented by region, category, ship mode, and customer segment — plus a 15-day sales forecast and geographic profit-by-state view with interactive slicers. Solved real data-prep issues along the way: locale-aware date parsing and #N/A handling in the Returns column.</p>
+    <section class="contact-page" id="contact" aria-labelledby="contact-title">
+      <img class="contact-background" src="assets/closing-water.jpg" alt="" loading="lazy">
+      <div class="contact-overlay"></div>
+      <div class="contact-topline"><span>Gaurav Sharma</span><a href="mailto:chmodgaurav@gmail.com">Contact <span
+            aria-hidden="true">↗</span></a></div>
+      <div class="contact-panel">
+        <p class="page-kicker page-kicker-light">THANK YOU FOR VISITING</p>
+        <h2 id="contact-title">Thank You</h2>
+        <p>Data analysis, teaching, and a curiosity for what comes next.</p>
+        <div class="contact-presented">Presented by:<strong>Gaurav Sharma</strong></div>
+        <a class="contact-email" href="mailto:chmodgaurav@gmail.com">chmodgaurav@gmail.com <span
+            aria-hidden="true">↗</span></a>
+        <div class="contact-socials"><a href="https://linkedin.com/in/cypherloss" target="_blank"
+            rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/cypherloss" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a> </a><a href="https://x.com/cypherloss" target="_blank"
+            rel="noopener noreferrer">Twitter ↗</a></a><a href="https://www.reddit.com/user/CognitiveCache/"
+            target="_blank" rel="noopener noreferrer">Reddit ↗</a></div>
       </div>
-
-      <div class="project">
-        <div class="project-top">
-          <div class="project-title-row">
-            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5M4 19h16"/><path d="M6 9l4 4 3-3 5 6"/></svg>
-            <div class="project-title">Telecom Customer Churn Dashboard</div>
-          </div>
-          <div class="project-stack">Power BI · Power Query · DAX</div>
-        </div>
-        <p>End-to-end churn analytics dashboard on the IBM Telco dataset, with derived features (tenure cohorts, charge bands, service count) and DAX measures for churn rate, retention rate, and monthly revenue lost/retained. Isolated the highest-risk segment and delivered 6 prioritized retention recommendations with projected impact.</p>
-        <div class="metrics">
-          <div class="metric"><b>7,043</b><span>customers analyzed</span></div>
-          <div class="metric"><b>43% vs 3%</b><span>month-to-month vs 2-yr contract churn</span></div>
-          <div class="metric"><b>~65%</b><span>churn in highest-risk segment (~1,100 customers)</span></div>
-        </div>
-      </div>
-
-      <p style="margin-top:28px;"><a href="https://github.com/cypherloss" class="btn btn-secondary" target="_blank" rel="noopener">See more on GitHub</a></p>
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="wrap">
-      <h2>Skills</h2>
-      <div class="skill-groups">
-        <div class="skill-group">
-          <h3>Data &amp; analytics</h3>
-          <div class="pill-row">
-            <span class="pill">Power BI</span>
-            <span class="pill">Power Query</span>
-            <span class="pill">DAX</span>
-            <span class="pill">SQL</span>
-            <span class="pill">PostgreSQL</span>
-            <span class="pill">Excel</span>
-            <span class="pill">Tableau</span>
-            <span class="pill">Statistics</span>
-            <span class="pill">Data cleaning</span>
-            <span class="pill">Exploratory data analysis</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>AI &amp; engineering</h3>
-          <div class="pill-row">
-            <span class="pill">Python</span>
-            <span class="pill">Pandas</span>
-            <span class="pill">PyTorch</span>
-            <span class="pill">LangChain</span>
-            <span class="pill">RAG</span>
-            <span class="pill">Vector databases</span>
-            <span class="pill">Git</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="education">
-    <div class="wrap">
-      <h2>Education</h2>
-
-      <div class="edu-entry">
-        <div class="edu-school">Dr. A.P.J. Abdul Kalam Technical University</div>
-        <div class="edu-detail">B.Tech, Computer Science &amp; Engineering · Sep 2022 – May 2026</div>
-        <ul>
-          <li>Smart India Hackathon — Early Wheat Diseases Detection System</li>
-          <li>Top 10 finalist, Deepsight Hackathon, among 50 teams</li>
-        </ul>
-      </div>
-
-      <div class="edu-entry">
-        <div class="edu-school">Central Board of Secondary Education</div>
-        <div class="edu-detail">10+2 · Apr 2015 – Jul 2022</div>
-      </div>
-    </div>
-  </section>
-
-  <section id="certifications">
-    <div class="wrap">
-      <h2>Certifications</h2>
-      <div class="cert-row">
-        <span class="cert-name">Introduction to Agent Skills — Anthropic</span>
-        <span class="cert-meta">Aug 2026</span>
-      </div>
-      <div class="cert-row">
-        <span class="cert-name">Prompt Engineering &amp; AI Agents with ChatGPT — LinkedIn</span>
-        <span class="cert-meta">Jul 2026</span>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer id="contact">
-  <div class="wrap">
-    <div class="footer-heading">Let's talk data.</div>
-    <div class="footer-sub">Open to Data Analyst, BI Analyst, and AI/ML engineering roles. The fastest way to reach me is email.</div>
-
-    <div class="social-row">
-      <a class="social-link" href="mailto:chmodgaurav@gmail.com">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
-        Email
-      </a>
-      <a class="social-link" href="https://linkedin.com/in/cypherloss" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
-        LinkedIn
-      </a>
-      <a class="social-link" href="https://github.com/cypherloss" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .26.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
-        GitHub
-      </a>
-      <a class="social-link" href="https://x.com/cypherloss" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.6 10.6 20.3 3h-1.6l-5.8 6.6L8.3 3H3l7 10-7 8h1.6l6.1-7 5 7H21l-7.4-10.4Zm-2.2 2.5-.7-1L5.2 4.2h2.1l4.5 6.3.7 1 5.9 8.2h-2.1l-4.9-6.7Z"/></svg>
-        X
-      </a>
-      <a class="social-link" href="https://youtube.com/@cypherloss" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 7.2s-.21-1.5-.86-2.16c-.82-.87-1.74-.87-2.16-.92C15.6 4 12 4 12 4h-.01s-3.59 0-6.57.12c-.42.05-1.34.05-2.16.92C2.6 5.7 2.4 7.2 2.4 7.2S2.18 9 2.18 10.7v1.6C2.18 14 2.4 15.8 2.4 15.8s.21 1.5.86 2.16c.82.87 1.9.84 2.38.93 1.72.17 7.36.22 7.36.22s3.6 0 6.58-.13c.42-.05 1.34-.05 2.16-.92.65-.66.86-2.16.86-2.16s.22-1.8.22-3.5v-1.6c0-1.7-.22-3.5-.22-3.5ZM9.98 14.6V8.8l5.4 2.9-5.4 2.9Z"/></svg>
-        YouTube
-      </a>
-      <a class="social-link" href="https://reddit.com/u/cypherloss" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a2 2 0 0 0-3.4-1.44c-1.08-.74-2.56-1.22-4.2-1.28l.72-3.4 2.36.5a1.44 1.44 0 1 0 .15-.74l-2.63-.56a.38.38 0 0 0-.45.29l-.8 3.8c-1.66.05-3.16.53-4.25 1.28A2 2 0 1 0 6.4 13.9a3.6 3.6 0 0 0-.03.44c0 2.06 2.52 3.73 5.63 3.73s5.63-1.67 5.63-3.73c0-.14-.01-.28-.03-.42A2 2 0 0 0 22 12Zm-13.5 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6.6 2.74c-.73.73-2.12.79-2.6.79s-1.87-.06-2.6-.79a.3.3 0 0 1 .43-.43c.44.44 1.4.6 2.17.6s1.73-.16 2.17-.6a.3.3 0 0 1 .43.43Zm-.1-1.74a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg>
-        Reddit
-      </a>
-      <a class="social-link" href="https://instagram.com/cypherloss" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1"/></svg>
-        Instagram
-      </a>
-    </div>
-
-    <div class="footer-bottom">
-      <span>Gaurav Sharma · Mahesana, Gujarat, India</span>
-      <span>Built with HTML, CSS &amp; JS</span>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
-
-<button class="back-to-top" id="backToTop" aria-label="Back to top">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-</button>
-
+      <footer class="contact-footer"><span>Gaurav Sharma · Gujarat, India</span><a href="#top">Back to Home ↑</a><span>©
+          Gaurav Sharma</span></footer>
+    </section>
+  </main>
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7" />
+    </svg>
+  </button>
+  <script src="script.js"></script>
 </body>
+
 </html>
