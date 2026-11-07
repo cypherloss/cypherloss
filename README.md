@@ -50,8 +50,9 @@ I'm continuously learning, experimenting, and building projects in the AI and da
 
 **Development & Frameworks**
 - Bun
-- TypeScript
+- VS Code
 - Git & GitHub
+- Linux (Ubuntu , Omarchy)
 
 **Areas of Interest**
 - Data Science & Machine Learning
