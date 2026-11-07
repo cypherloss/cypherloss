@@ -1,93 +1,92 @@
-# Hey, I'm Gaurav Sharma 👋
+# Hi, I'm Gaurav Sharma 👋
 
-### Founder | AI & Data Science | Generative AI | Data Analytics
+### Data Analyst | AI/ML Enthusiast | AI Engineer in Progress
 
-**Building with AI. Thinking in systems. Turning data into decisions.**
+I'm a Computer Science graduate passionate about turning data into insights and building intelligent systems that solve real-world problems.
 
-I'm a Computer Science graduate interested in the intersection of Artificial Intelligence, Data Science, Generative AI, and entrepreneurship.
-
-My focus is on understanding complex problems, building intelligent solutions, and exploring how AI can create meaningful value for businesses and people.
-
-From machine learning and LLM fine-tuning to business intelligence, AI agents, and intelligent automation, I enjoy working across the spectrum of data and intelligent systems.
-
-I'm particularly interested in building practical AI applications, experimenting with emerging technologies, and transforming ideas into functional solutions that address real-world challenges.
+I work at the intersection of **Data Analytics, Machine Learning, Generative AI, and AI Agents**. I enjoy exploring emerging technologies, experimenting with new tools, and building practical projects that combine software engineering with artificial intelligence.
 
 ---
 
-## 🚀 Areas of Interest
+## 👨‍💻 Who Am I?
 
-- **Generative AI & LLMs:** Large language models, fine-tuning, prompt engineering, and LLM-powered applications.
-- **AI Agents & Automation:** Agentic workflows, tool integration, multi-agent systems, and intelligent task automation.
-- **Machine Learning:** Predictive modeling, data-driven solutions, and applied machine learning.
-- **Data Analytics:** Exploratory data analysis, business intelligence, data visualization, and actionable insights.
-- **AI Entrepreneurship:** AI consulting, intelligent products, business automation, and practical AI adoption.
+- 🎓 Computer Science graduate (B.Tech, 2022–2026).
+- 📊 Background in Data Analytics and Data Science.
+- 🤖 Interested in Generative AI, LLMs, RAG, and AI Agents.
+- 🧠 Exploring Quantum Computing and Quantum Networking.
+- 🏆 Smart India Hackathon participant.
+- 🚀 Top 10 finalist at Deepsight Hackathon (50 teams).
+- 💡 Interested in building AI-powered products and exploring AI consulting.
 
----
+## 🔭 What Am I Currently Working On?
 
-## 💼 Professional Experience
+I'm continuously learning, experimenting, and building projects in the AI and data ecosystem.
 
-**Founder & AI Consultant**
-*September 2024 – March 2026*
+- **Generative AI:** Exploring LLMs, prompt engineering, fine-tuning, and RAG architectures.
+- **AI Agents:** Building autonomous research agents and AI-powered coding assistants.
+- **Machine Learning:** Experimenting with practical ML applications and model development.
+- **Data Analytics:** Building interactive dashboards and extracting actionable business insights.
+- **Quantum Technologies:** Exploring the fundamentals of quantum computing.
 
-**Data Science Intern | The Entrepreneurship Network**
-*April 2025 – September 2025*
-
-**Data Analyst Intern | Carrier Compiler**
-*September 2024 – August 2025*
-
-**Freelance Mathematics & Computer Science Tutor**
-*October 2023 – December 2025*
-
----
-
-## 🛠️ Technical Skills
+## 🛠️ Tools & Technologies I Use
 
 **Programming Languages**
-Python, SQL, TypeScript, JavaScript
+- Python
+- SQL
 
-**Artificial Intelligence & Machine Learning**
-Machine Learning, Generative AI, Large Language Models (LLMs), LLM Fine-Tuning, Prompt Engineering, AI Agents, LangChain, Hugging Face, Computer Vision
+**Data Analytics & Visualization**
+- Power BI
+- Microsoft Excel
+- Pandas
+- NumPy
 
-**Data Analytics & Business Intelligence**
-Power BI, Microsoft Excel, Pandas, NumPy, Data Cleaning, Exploratory Data Analysis, Data Visualization, Business Reporting
+**AI / Machine Learning**
+- LangChain
+- Large Language Models (LLMs)
+- RAG
+- Qwen
+- Prompt Engineering
+- AI Agents
 
-**AI Engineering & Application Development**
-LLM Applications, Agentic Workflows, API Integration, AI-Powered Automation, Backend Development, Data Pipelines
+**Development & Frameworks**
+- Bun
+- TypeScript
+- Git & GitHub
 
-**Development Tools & Technologies**
-Git, GitHub, Visual Studio Code, Bun, TypeScript
+**Areas of Interest**
+- Data Science & Machine Learning
+- Generative AI
+- Agentic AI
+- Natural Language Processing
+- Quantum Computing
+- Quantum Networking
+
+## 🚀 Featured Projects
+
+| Project | Description |
+|---|---|
+| **Knight-Sight** | Automatic Number Plate Recognition (ANPR) system. |
+| **EduLora** | Fine-tuning Qwen models using LoRA techniques. |
+| **NexusClaw** | A coding agent built with Bun and TypeScript. |
+| **AI Multi-Research Agent** | An AI-powered research system built using LangChain. |
+| **Power BI Dashboards** | Interactive dashboards for sales, HR, and customer churn analytics. |
+
+## 📈 What Drives Me?
+
+I believe technology becomes meaningful when it solves actual problems.
+
+My goal is to combine analytical thinking, software development, and artificial intelligence to build solutions that are useful, scalable, and impactful.
+
+I'm always open to collaborating on interesting projects, discussing emerging technologies, and connecting with people working in AI, Data Science, and Software Engineering.
+
+## 🤝 Let's Connect!
+
+- **Portfolio:** https://cypherloss.vercel.app
+- **GitHub:** https://github.com/cypherloss
+- **LinkedIn:** https://www.linkedin.com/in/cypherloss/
 
 ---
 
-## 🧠 Featured Projects
+*"Stay curious. Keep building. Never stop exploring."*
 
-### Knight-Sight | Automatic Number Plate Recognition
-A computer vision project focused on vehicle number plate detection and recognition using AI-driven image processing techniques.
-
-**Technologies:** Python, Computer Vision, Image Processing
-
-### EduLora | LLM Fine-Tuning
-An LLM fine-tuning project exploring the adaptation of open-source language models for specialized tasks using parameter-efficient fine-tuning techniques.
-
-**Technologies:** Qwen, LoRA, Hugging Face, Generative AI
-
-### NexusClaw | AI Coding Agent
-An AI-powered coding agent project focused on developer workflows, intelligent assistance, and automating programming-related tasks.
-
-**Technologies:** TypeScript, Bun, AI Agents
-
-### AI Multi-Research Agent
-An AI-powered research system designed to explore multi-step research workflows, information gathering, and structured response generation.
-
-**Technologies:** Python, LangChain, LLMs, AI Agents
-
-### Business Intelligence Dashboards
-Interactive Power BI dashboards designed to analyze business performance, sales trends, customer churn, and HR analytics.
-
-**Technologies:** Power BI, SQL, Excel, Data Visualization
-
----
-
-<p align="center">
-  <i>Think deeply. Build thoughtfully. Learn continuously.</i>
-</p>
+⭐ If you find my work interesting, feel free to explore my repositories and connect with me!
