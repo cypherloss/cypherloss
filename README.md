@@ -42,10 +42,6 @@ I enjoy exploring datasets, building analytical solutions, experimenting with ma
 - Jupyter Notebook
 - Bun
 
-### Operating Systems
-- Windows 11
-- Omarchy Linux
-
 ---
 
 ## 💡 Interests
