@@ -1,39 +1,75 @@
 # Hey, I'm Gaurav Sharma! 👋
 
-**📊 Data Analyst | 🧠 Data Science | 🤖 ML Engineer | ⚡ AI Engineer**
+### Computer Science Graduate | Aspiring Data Analyst & Data Scientist
 
-## 👨‍💻 Who I Am
-I'm a Computer Science graduate interested in working with data, building machine learning models, and developing AI-powered systems.
+I'm a Computer Science graduate passionate about working with data, discovering meaningful insights, and solving real-world problems through technology.
 
-My interests span Data Analytics, Machine Learning, Generative AI, LLMs, and AI Agents. I'm also exploring **Quantum Computing** as an emerging technology.
-
-## 🔭 Currently Working On
-- 🤖 Exploring Generative AI, LLMs, RAG, and AI Agents.
-- 🧪 Experimenting with LLM fine-tuning and agentic workflows.
-- 📊 Strengthening my skills in Data Analytics and Machine Learning.
-- ⚡ Exploring Quantum Computing.
-
-## 🛠️ Tools & Technologies
-
-**💻 Languages**
-`Python` `SQL` `JavaScript` `TypeScript`
-
-**📊 Data Analytics**
-`Power BI` `Excel` `Pandas` `NumPy`
-
-**🤖 Machine Learning & AI**
-`Scikit-learn` `LangChain` `LLMs` `RAG` `Qwen`
-
-**⚙️ Development**
-`Git` `GitHub` `Bun`
-
-## 🤝 Let's Connect!
-Always open to interesting conversations, collaborations, and opportunities in Data, AI, and Machine Learning.
-
-- 💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/cypherloss/)
-- 🐙 **GitHub:** [@cypherloss](https://github.com/cypherloss)
-- 🌐 **Portfolio:** [cypherloss.vercel.app](https://cypherloss.vercel.app)
+I enjoy exploring datasets, building analytical solutions, experimenting with machine learning, and continuously learning new technologies.
 
 ---
 
-⭐ *Curious mind. Analytical thinking. Building with AI.*
+## 🚀 Currently Working On
+
+- Strengthening my foundations in Data Analytics and Data Science.
+- Building data-driven projects and analytical dashboards.
+- Improving my skills in Python, SQL, Statistics, and Machine Learning.
+- Exploring the fundamentals of Quantum Computing.
+
+## 🛠️ Tools & Technologies
+
+### Programming Languages
+- Python
+- SQL
+- JavaScript
+- TypeScript
+
+### Data Analytics & Visualization
+- Microsoft Excel
+- Power BI
+- Pandas
+- NumPy
+- Matplotlib
+
+### Machine Learning & AI
+- Scikit-learn
+- LangChain
+- Qwen
+- Computer Vision
+
+### Development Tools & Platforms
+- Git & GitHub
+- VS Code
+- Jupyter Notebook
+- Bun
+
+### Operating Systems
+- Windows 11
+- Omarchy Linux
+
+---
+
+## 💡 Interests
+
+- Data Analytics & Business Intelligence
+- Data Science & Machine Learning
+- Statistical Analysis
+- Data Visualization
+- Quantum Computing
+
+---
+
+## 🤝 Let's Connect!
+
+I'm always interested in connecting with people who love technology, data, and continuous learning.
+
+- 🌐 **Portfolio:** [cypherloss.vercel.app](https://cypherloss.vercel.app)
+- 💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/cypherloss/)
+- 🐙 **GitHub:** [@cypherloss](https://github.com/cypherloss)
+
+---
+
+### 💭 A Little Philosophy
+
+*"The goal is not just to collect data, but to understand the story it tells."*
+
+**Always Learning. Always Exploring. Always Building.** 🚀
