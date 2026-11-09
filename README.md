@@ -2,9 +2,9 @@
 
 ### Computer Science Graduate | Aspiring Data Analyst & Data Scientist
 
-I'm a Computer Science graduate passionate about working with data, discovering meaningful insights, and solving real-world problems through technology.
+I'm a Computer Science graduate passionate about working with data, uncovering meaningful insights, and solving real-world problems through technology.
 
-I enjoy exploring datasets, building analytical solutions, experimenting with machine learning, and continuously learning new technologies.
+I enjoy exploring datasets, building analytical solutions, developing data-driven projects, experimenting with machine learning, and continuously expanding my technical knowledge.
 
 ---
 
@@ -17,30 +17,13 @@ I enjoy exploring datasets, building analytical solutions, experimenting with ma
 
 ## 🛠️ Tools & Technologies
 
-### Programming Languages
-- Python
-- SQL
-- JavaScript
-- TypeScript
+**Programming Languages:** Python · SQL · JavaScript · TypeScript
 
-### Data Analytics & Visualization
-- Microsoft Excel
-- Power BI
-- Pandas
-- NumPy
-- Matplotlib
+**Data Analytics & Visualization:** Microsoft Excel · Power BI · Pandas · NumPy · Matplotlib
 
-### Machine Learning & AI
-- Scikit-learn
-- LangChain
-- Qwen
-- Computer Vision
+**Machine Learning & AI:** Scikit-learn · LangChain · Qwen · Computer Vision
 
-### Development Tools & Platforms
-- Git & GitHub
-- VS Code
-- Jupyter Notebook
-- Bun
+**Development Tools & Platforms:** Git · GitHub · VS Code · Jupyter Notebook · Bun
 
 ---
 
@@ -56,7 +39,7 @@ I enjoy exploring datasets, building analytical solutions, experimenting with ma
 
 ## 🤝 Let's Connect!
 
-I'm always interested in connecting with people who love technology, data, and continuous learning.
+I'm always interested in connecting with people who share a passion for technology, data, and continuous learning.
 
 - 🌐 **Portfolio:** [cypherloss.vercel.app](https://cypherloss.vercel.app)
 - 💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/cypherloss/)
