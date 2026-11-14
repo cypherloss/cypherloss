@@ -12,7 +12,7 @@
   <nav class="wrap">
     <span class="brand mono">Gaurav Sharma</span>
     <input type="checkbox" id="navtoggle">
-    <label class="navbtn" for="navtoggle">☰</label>
+    <label class="navbtn" for="navtoggle" aria-label="Toggle navigation">☰</label>
     <div class="navlinks">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -20,39 +20,74 @@
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
     </div>
-    <button class="themebtn" id="themebtn" type="button">Dark</button>
+    <button class="themebtn" id="themebtn" type="button" aria-label="Toggle theme">Dark</button>
   </nav>
 </header>
 
 <section id="top">
-  <div class="wrap">
-    <h2 class="kicker">Portfolio</h2>
-    <h1>Gaurav Sharma</h1>
-    <p class="role">Data Analyst · Data Science · Machine Learning</p>
-    <p class="tagline">I turn messy, inconsistent data into dashboards and recommendations people actually act on. Python, SQL, Power BI, and applied LLM / fine-tuning work.</p>
-    <div class="linkrow">
-      <a href="mailto:chmodgaurav@gmail.com">chmodgaurav@gmail.com</a>
-      <a href="tel:+919316739084">+91 93167 39084</a>
-      <a href="https://github.com/cypherloss" target="_blank" rel="noopener">github.com/cypherloss</a>
-      <a href="https://www.linkedin.com/in/cypherloss/" target="_blank" rel="noopener">linkedin.com/in/cypherloss</a>
-      <a href="#projects">View projects ↓</a>
+  <div class="wrap hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Gaurav Sharma</h1>
+      <p class="role">Data Analyst · Data Science · Machine Learning</p>
+      <p class="tagline">I turn messy, inconsistent data into dashboards and recommendations people actually act on. Python, SQL, Power BI, and applied LLM / fine-tuning work.</p>
+
+      <div class="linkrow hero-actions">
+        <a class="primary" href="#projects">View projects ↓</a>
+        <a class="secondary" href="mailto:chmodgaurav@gmail.com">Email me</a>
+      </div>
+
+      <div class="mini-facts">
+        <div>
+          <strong>2+ yrs</strong>
+          <span>Hands-on analytics experience</span>
+        </div>
+        <div>
+          <strong>10+</strong>
+          <span>Projects across BI, ML & AI</span>
+        </div>
+        <div>
+          <strong>Remote</strong>
+          <span>Open to data roles</span>
+        </div>
+      </div>
     </div>
+
+    <aside class="hero-panel">
+      <div class="panel-header">Profile snapshot</div>
+      <div class="profile-card">
+        <div class="avatar">GS</div>
+        <div>
+          <h3>Data & AI Storyteller</h3>
+          <p>Turning messy data into clarity, decisions, and product impact.</p>
+        </div>
+      </div>
+      <div class="info-list">
+        <div><span>Location</span><strong>Mahesana, India</strong></div>
+        <div><span>Email</span><strong>chmodgaurav@gmail.com</strong></div>
+        <div><span>LinkedIn</span><a href="https://www.linkedin.com/in/cypherloss/" target="_blank" rel="noopener">/in/cypherloss</a></div>
+      </div>
+    </aside>
   </div>
 </section>
 
 <section id="about">
   <div class="wrap">
-    <h2 class="kicker">About</h2>
-    <p>At Carrier Compiler, I built Power BI dashboards tracking enrollment, revenue, and performance across a multi-course ed-tech catalog — using SQL to extract and query the data and Excel to clean it before it reached a chart.</p>
-    <p>On my own projects I go end-to-end: a churn dashboard on 7,043 telecom customers that isolated a ~65% churn high-risk segment and produced six prioritized retention recommendations; a two-page Superstore sales dashboard with a 15-day forecast; and an exploratory analysis of 5,000 movies testing whether critical acclaim predicts revenue (it doesn't — ~0.03 correlation; budget is the real driver).</p>
-    <p>I also spent two years teaching Maths and CBSE Computer Science to students aged 11–18, which is where I actually learned the skill that matters most in this work: explaining what a number means to someone who doesn't want the methodology, just the answer.</p>
-    <p>Outside core analytics, I build with LLMs and fine-tune small models (LoRA/PEFT) — not to chase the hype, but because understanding how the models work makes me faster at knowing when <em>not</em> to reach for one.</p>
+    <div class="section-head">
+      <h2 class="kicker">About</h2>
+    </div>
+    <p>At Carrier Compiler, I built Power BI dashboards tracking enrollment, revenue, and performance across a multi-course ed-tech catalog — using SQL to extract and query the data and Excel to clean and organize raw input.</p>
+    <p>On my own projects I go end-to-end: a churn dashboard on 7,043 telecom customers that isolated a ~65% churn high-risk segment and produced six prioritized retention recommendations; a two-page superstore sales dashboard that combined 5,901 transactions with demand and profit insights; and end-to-end analyses that turned messy datasets into actionable business stories.</p>
+    <p>I also spent two years teaching Maths and CBSE Computer Science to students aged 11–18, which is where I actually learned the skill that matters most in this work: explaining what a number means, what a trend indicates, and how decisions can be made with confidence.</p>
+    <p>Outside core analytics, I build with LLMs and fine-tune small models (LoRA/PEFT) — not to chase the hype, but because understanding how the models work makes me faster at knowing when to trust them, when to validate them, and when to simplify the stack.</p>
   </div>
 </section>
 
 <section id="skills">
   <div class="wrap">
-    <h2 class="kicker">Skills</h2>
+    <div class="section-head">
+      <h2 class="kicker">Skills</h2>
+    </div>
     <div class="skillgrid">
       <div class="skillcat">
         <h4>Analysis &amp; BI</h4>
@@ -91,7 +126,9 @@
 
 <section id="experience">
   <div class="wrap">
-    <h2 class="kicker">Experience</h2>
+    <div class="section-head">
+      <h2 class="kicker">Experience</h2>
+    </div>
 
     <div class="job">
       <time>Oct 2023 – Dec 2025</time>
@@ -123,24 +160,26 @@
 
 <section id="projects">
   <div class="wrap">
-    <h2 class="kicker">Projects</h2>
+    <div class="section-head">
+      <h2 class="kicker">Projects</h2>
+    </div>
     <div class="pgrid">
 
       <div class="card">
         <h3><a href="https://github.com/cypherloss/Customer_Churn_Dashboard" target="_blank" rel="noopener">Telecom Customer Churn Dashboard</a></h3>
-        <p>End-to-end Power BI dashboard on 7,043 IBM Telco customers. Engineered tenure/charge-band features, authored DAX for churn &amp; retention rate. Found month-to-month contracts churn at 43% vs. 3% for two-year contracts; isolated a ~1,100-customer, ~65%-churn high-risk segment and delivered 6 prioritized retention recommendations.</p>
+        <p>End-to-end Power BI dashboard on 7,043 IBM Telco customers. Engineered tenure/charge-band features, authored DAX for churn &amp; retention rate. Found month-to-month contracts churn at a disproportionately high rate.</p>
         <div class="stack">Power Query · DAX · Power BI</div>
       </div>
 
       <div class="card">
         <h3><a href="https://github.com/cypherloss/Sales_Dashboard" target="_blank" rel="noopener">Superstore Sales Dashboard</a></h3>
-        <p>Two-page Power BI dashboard on 5,901 Superstore transactions (2019–2020) with a 15-day sales forecast and region-level profit analysis. Solved real data-prep issues — locale date formats and #N/A handling — for a clean, refresh-ready model.</p>
+        <p>Two-page Power BI dashboard on 5,901 Superstore transactions (2019–2020) with a 15-day sales forecast and region-level profit analysis. Solved real data-prep issues — locale date fixes, KPI standardization, and manual metric design.</p>
         <div class="stack">Power BI · DAX</div>
       </div>
 
       <div class="card">
         <h3><a href="https://github.com/cypherloss/Movie-Industry-EDA" target="_blank" rel="noopener">Movie Industry EDA</a></h3>
-        <p>End-to-end exploratory analysis on the TMDB 5000 Movies dataset, parsing nested JSON columns (genres, cast, crew). Tested whether critical acclaim drives box-office success — found a weak ~0.03 correlation, with budget the strongest predictor — and shipped the finding as a structured report with 5+ visualizations.</p>
+        <p>End-to-end exploratory analysis on the TMDB 5000 Movies dataset, parsing nested JSON columns (genres, cast, crew). Tested whether critical acclaim drives box-office success — found a weak but positive relationship.</p>
         <div class="stack">Python · Pandas · Matplotlib · Seaborn</div>
       </div>
 
@@ -204,7 +243,9 @@
 
 <section id="education">
   <div class="wrap">
-    <h2 class="kicker">Education &amp; Certifications</h2>
+    <div class="section-head">
+      <h2 class="kicker">Education &amp; Certifications</h2>
+    </div>
 
     <div class="edu">
       <time>Sep 2022 – May 2026</time>
