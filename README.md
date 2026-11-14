@@ -1,6 +1,6 @@
 # Hey, I'm Gaurav Sharma! 👋
 
-### Computer Science Graduate | Aspiring Data Analyst & Data Scientist
+### Computer Science Graduate | Data Analyst | Teacher
 
 I'm a Computer Science graduate passionate about working with data, uncovering meaningful insights, and solving real-world problems through technology.
 
