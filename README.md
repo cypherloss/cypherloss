@@ -17,13 +17,13 @@ I enjoy exploring datasets, building analytical solutions, developing data-drive
 
 ## 🛠️ Tools & Technologies
 
-**Programming Languages:** Python · SQL · JavaScript · TypeScript
+**Programming Languages:** Python · SQL · DAX
 
-**Data Analytics & Visualization:** Microsoft Excel · Power BI · Pandas · NumPy · Matplotlib
+**Data Analysis:** Exploratory Data Analysis · Data Cleaning · Statistics · Power BI · Tableau · Excel · Data Visualizatio
 
-**Machine Learning & AI:** Scikit-learn · LangChain · Qwen · Computer Vision
+**Databases & Tools:** PostgreSQL · MySQL · Git · Github · Vs Code · Linux
 
-**Development Tools & Platforms:** Git · GitHub · VS Code · Jupyter Notebook · Bun
+**Additional Skills:** Problem Solving · Analytical Thinking · Communication Skills · Mathematics · Teaching & Mentoring
 
 ---
 
