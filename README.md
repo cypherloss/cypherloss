@@ -21,7 +21,7 @@ I enjoy exploring datasets, building analytical solutions, developing data-drive
 
 **Data Analysis:** Exploratory Data Analysis · Data Cleaning · Statistics · Power BI · Tableau · Excel · Data Visualizatio
 
-**Databases & Tools:** PostgreSQL · MySQL · Git · Github · Vs Code · Linux
+**Databases & Tools:** PostgreSQL · MySQL · Git · Github · Vs Code · Linux · Wireshark · Nmap
 
 **Additional Skills:** Problem Solving · Analytical Thinking · Communication Skills · Mathematics · Teaching & Mentoring
 
@@ -29,11 +29,10 @@ I enjoy exploring datasets, building analytical solutions, developing data-drive
 
 ## 💡 Interests
 
-- Data Analytics & Business Intelligence
-- Data Science & Machine Learning
+- Data Analytics
 - Statistical Analysis
 - Data Visualization
-- Quantum Computing
+- Computer Networking
 
 ---
 
